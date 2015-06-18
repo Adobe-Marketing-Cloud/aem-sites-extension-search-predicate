@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <items jcr:primaryType="nt:unstructured">
+        <fulltext
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Fulltext"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/fulltextpredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/fulltextpredicate"
+            fieldTitle="Fulltext Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/textfield"
+            renderType="text"/>
+        <path
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Path Browser"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/pathpredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/pathpredicate"
+            fieldTitle="Path Browser Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/pathbrowser"
+            renderType="text"/>
+        <tags
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Tags"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/tagspredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/tagspredicate"
+            fieldTitle="Tags Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/textfield"
+            renderType="text"/>
+        <pagestatus
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Page Status"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/pagestatuspredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/statuspredicate"
+            fieldTitle="Page Status Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/formbuilder/checkbox"
+            renderType="checkbox"/>
+        <daterange
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Modified Date"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/daterangepredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/daterangepredicate"
+            fieldTitle="Date Range Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/datepicker"
+            renderType="datepicker"/>
+        <hidden
+            jcr:primaryType="nt:unstructured"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/hiddenpredicatefield"
+            fieldResourceType="granite/ui/components/foundation/form/hidden"
+            fieldTitle="Hidden Filter"
+            fieldViewResourceType="granite/ui/components/foundation/form/textfield"
+            renderType="hidden"/>
+        <analytics
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Analytics Filters"
+            fieldPropResourceType="cq/gui/components/siteadmin/admin/searchpanel/predicatefields/analyticspredicatefield"
+            fieldResourceType="cq/gui/components/siteadmin/admin/searchpanel/searchpredicates/analyticspredicate"
+            fieldTitle="Analytics Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/formbuilder/checkbox"
+            renderType="checkbox"/>
+        <range
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Range"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/rangepredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/rangepredicate"
+            fieldTitle="Range Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/formbuilder/checkbox"
+            renderType="checkbox"/>
+        <options
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Options"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/optionspredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/optionspredicate"
+            fieldTitle="Options Property Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/formbuilder/checkbox"
+            renderType="checkbox"/>
+        <slider
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Slider Range"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/sliderrangepredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/sliderrangepredicate"
+            fieldTitle="Slider Range Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/formbuilder/checkbox"
+            renderType="checkbox"/>
+        <component
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Components"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/componentspredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/componentspredicate"
+            fieldTitle="Components Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/formbuilder/checkbox"
+            renderType="checkbox"/>
+        <user
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Author"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/userpredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/userpredicate"
+            fieldTitle="Author Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/formbuilder/checkbox"
+            renderType="checkbox"/>
+        <template
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Templates"
+            fieldPropResourceType="cq/gui/components/common/admin/customsearch/formbuilder/predicatefields/templatespredicatefield"
+            fieldResourceType="cq/gui/components/common/admin/customsearch/searchpredicates/templatepredicate"
+            fieldTitle="Templates Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/pathbrowser"
+            renderType="text"/>
+        <design
+            jcr:primaryType="nt:unstructured"
+            fieldLabel="Designs"
+            fieldPropResourceType="cq/gui/components/siteadmin/admin/searchpanel/predicatefields/designpredicatefield"
+            fieldResourceType="cq/gui/components/siteadmin/admin/searchpanel/searchpredicates/designpredicate"
+            fieldTitle="Design Predicate"
+            fieldViewResourceType="granite/ui/components/foundation/form/pathbrowser"
+            renderType="text"/>
+    </items>
+</jcr:root>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/foundation/contsys"
+    maxGeneratedOrder="21"
+    predicatesConfig="cq/gui/content/facets/formbuilderconfig/siteadminpredicatetypes">
+    <items jcr:primaryType="nt:unstructured">
+        <type
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/form/hidden"
+            listOrder="1"
+            metaType="hidden"
+            name="type"
+            value="cq:Page"/>
+        <fulltext
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/gui/components/common/admin/customsearch/searchpredicates/fulltextpredicate"
+            emptyText="Enter Keyword(s)"
+            fieldLabel="Fulltext Predicate"
+            listOrder="2"
+            maxlength="255"
+            metaType="fulltext"
+            minlength="2"/>
+        <path
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/gui/components/common/admin/customsearch/searchpredicates/pathpredicate"
+            emptyText="Select Search Directory"
+            fieldLabel="Path Browser"
+            listOrder="3"
+            metaType="path"/>
+        <tags
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/gui/components/common/admin/customsearch/searchpredicates/tagspredicate"
+            emptyText="Select Tag(s)"
+            fieldLabel="Tags"
+            listOrder="1000"
+            metaType="tags"
+            name="jcr:content/cq:tags"/>
+        <orderby
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/form/hidden"
+            listOrder="4"
+            metaType="hidden"
+            name="orderby"
+            value="path"/>
+        <daterangepredicate
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/gui/components/common/admin/customsearch/searchpredicates/daterangepredicate"
+            afterLabel="Modified After"
+            beforeLabel="Modified Before"
+            displayedFormat="D MMMM YYYY hh:mm a"
+            fieldLabel="Modified Date"
+            listOrder="320"
+            metaType="daterange"
+            name="jcr:content/cq:lastModified"/>
+        <pagestatuspredicate
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/gui/components/common/admin/customsearch/searchpredicates/statuspredicate"
+            fieldLabel="Page Status"
+            listOrder="6"
+            livecopyPropertyPath="jcr:content/cq:lastRolledoutBy"
+            metaType="pagestatus"
+            pubPropertyPath="jcr:content/cq:lastReplicationAction"
+            text="Page Status"/>
+        <analyticspredicate
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/gui/components/siteadmin/admin/searchpanel/searchpredicates/analyticspredicate"
+            fieldLabel="Analytics Filters"
+            listOrder="7"
+            metaType="analytics"
+            providerinfo="analytics"
+            text="Analytics Filters">
+            <datasource
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/siteadmin/admin/listview/columns/datasources/columndatasource"/>
+        </analyticspredicate>
+        <_x0031_434548206014
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/gui/components/siteadmin/admin/searchpanel/searchpredicates/designpredicate"
+            emptyText="Select Design(s)"
+            fieldLabel="Designs"
+            listOrder="21"
+            metaType="design"
+            name="jcr:content/cq:designPath"
+            text="Designs"/>
+    </items>
+</jcr:root>

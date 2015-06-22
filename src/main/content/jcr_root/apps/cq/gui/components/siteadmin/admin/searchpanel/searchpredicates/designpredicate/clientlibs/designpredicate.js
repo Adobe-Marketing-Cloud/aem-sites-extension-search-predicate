@@ -94,7 +94,6 @@
                         designs.push(design);
                     }
                 });
-                console.log("Andreea:"+designs.length);
                 for (var i = 0; i < designs.length; i++) {
                     addTag(designs[i], predicateName, propertyPath, $tagList);
                 }

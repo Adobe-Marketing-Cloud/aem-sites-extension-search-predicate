@@ -3,7 +3,7 @@
     jcr:primaryType="nt:unstructured"
     sling:resourceType="granite/ui/components/foundation/contsys"
     maxGeneratedOrder="21"
-    predicatesConfig="cq/gui/content/facets/formbuilderconfig/siteadminpredicatetypes">
+    predicatesConfig="/mnt/overlay/cq/gui/content/facets/formbuilderconfig/siteadminpredicatetypes">
     <items jcr:primaryType="nt:unstructured">
         <type
             jcr:primaryType="nt:unstructured"
@@ -74,14 +74,5 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="cq/gui/components/siteadmin/admin/listview/columns/datasources/columndatasource"/>
         </analyticspredicate>
-        <_x0031_434548206014
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="cq/gui/components/siteadmin/admin/searchpanel/searchpredicates/designpredicate"
-            emptyText="Select Design(s)"
-            fieldLabel="Designs"
-            listOrder="21"
-            metaType="design"
-            name="jcr:content/cq:designPath"
-            text="Designs"/>
     </items>
 </jcr:root>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/apps/cq/gui/content/facets/formbuilderconfig/siteadminpredicatetypes"/>
-    <filter root="/libs/cq/gui/content/facets"/>
+    <filter root="/libs/cq/gui/content/facets/sites"/>
     <filter root="/apps/cq/gui/components/siteadmin/admin/searchpanel/predicatefields/designpredicatefield"/>
     <filter root="/apps/cq/gui/components/siteadmin/admin/searchpanel/searchpredicates/designpredicate"/>
 </workspaceFilter>
